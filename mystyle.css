@@ -1,0 +1,270 @@
+html, body{
+    height:100%;
+    background-color:linen;
+    text-align:center;
+    
+ 
+}
+.navbar{
+  height: 60px;
+  background-color: linen;
+  max-width: 100%;
+  text-align: center;
+ 
+}
+ 
+ 
+ 
+#page-container {
+    position: relative;
+    min-height: 100%;
+    background-color: linen;
+    text-align:center;
+    font-family: 'Nixie One', cursive;
+    color: #538688;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+    position:relative;
+    text-align:center;
+    background-color: linen;
+  }
+
+  #content-wrap2{
+      text-align:center;
+      max-width: 100%;
+  }
+  
+.image img{
+  max-width: 100%;
+  max-height: 500px;
+  padding-top: 150px;
+ 
+}
+ 
+.image2 img{
+  max-width: 100%;
+  max-height:250px;
+  margin-top: 150px;
+  
+}
+ 
+ 
+ 
+a{
+  color: #538688;
+  font-family: 'Nixie One', cursive;
+}
+ 
+ 
+#footer{
+   background-color:linen; 
+   color:#212529;
+   position: relative;
+   left: 0;
+   right: 0;
+   bottom:0;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   font-family: 'Cinzel', serif;
+   
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .imgfooter img{
+    max-height:100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin:auto;
+    
+   
+    
+}
+ 
+.footer .footer-content{
+  color: #538688;
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+}
+ 
+.footer .footer-social{
+ text-align:center;
+ padding-bottom:25px
+}
+ 
+.footer .footer-social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+ 
+.footer .footer-bottom {
+  background:#212529;
+  color:darkgoldenrod;
+  height: 50px;
+  text-align:center;
+}
+ 
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-top: 160px;
+    font-size: 40px;
+    word-break: break-all;
+    font-family: 'Nixie One', cursive;
+    color: #538688;
+  }
+ 
+ 
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+ 
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  /* Content */
+  .content {
+    background-color: linen;
+    padding: 10px;
+  }
+}
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      .column{
+        width: 100%;
+        float: none;
+      }
+    }
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color:linen;
+    cursor: pointer;
+    font-family: 'Nixie One', cursive;
+  }
+  
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .btn.active {
+    background-color:linen;
+     
+  }
+ 
+  .container {
+    color:linen;
+    display:grid;
+    margin-top: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom:175px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color:#538688;
+    font-family: 'Nixie One', cursive;
+    
+}
+
+.form-group{
+  margin-bottom: 1.5em;
+  color:linen;
+}
+ 
+.form-label{
+  font-size: 1.25em;
+  color:linen;
+  display:block;
+  opacity:1;
+}
+ 
+.form-control{
+  background-color: linen;
+  box-shadow:none;
+  border-radius:0;
+  border-color:#538688;
+  border-style:none none solid none;
+  width:100%;
+}
+
+.form-control:focus{
+  box-shadow:none;
+  outline:none;
+}
+
+
+
+.formbtn{
+  background:goldenrod;
+  border:1px solid #538688;
+  border-radius:3px;
+  font-size: 1em;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  text-transform: uppercase;
+}
+
+.formbtn:hover{
+  background:lightcoral
+}
+
+textarea{
+  resize:none;
+}
